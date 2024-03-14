@@ -3,7 +3,7 @@ import { Request, Response } from "express";
 import router from "./routes/routes";
 
 const app: express.Application = express();
-const port: number = 3000;
+const port = 8000;
 
 app.use("/", router);
 
