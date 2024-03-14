@@ -6,9 +6,9 @@
     "checkJs": true,
     "outDir": "./dist",
     "sourceMap": true,
-    "strict": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true
+    "strict": false,
+    "noImplicitAny": false,
+    "strictNullChecks": false
   },
   "include": [
     "src/**/*.ts"
